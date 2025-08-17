@@ -1,5 +1,5 @@
-region = "ap-southeast-2"
-ami = "ami-010876b9ddd38475e"
+region = "<your-region-id>"
+ami = "<your-ami-id>"
 instance_type = "t2.micro"
 key_name = "<your-keypair-file>"
 allowed_ssh_cidr = "<your-ip-address>/32"
