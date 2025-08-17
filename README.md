@@ -58,6 +58,9 @@ terraform apply -auto-approve
 Check the AWS Console for your running EC2 instance.
 
 
+![EC2 Screenshot](screenshots/terraform-ec2-instance.jpg)
+
+
 ### 3. Use Variables
 
 - variables.tf defines variables (region, ami, instance_type, key_name).
@@ -90,6 +93,9 @@ Security Group allows:
 This is attached to the EC2 instance.
 
 
+![Security Group Screenshot](screenshots/ec2-scg.jpg)
+
+
 ### 5. Outputs
 
 Defined in outputs.tf:
@@ -109,6 +115,10 @@ instance_public_ip = "X.X.X.X"
 instance_public_dns = "ec2-xx-xx-xx-xx.compute-1.amazonaws.com"
 ```
 
+
+![Terraform Output](screenshots/vscode-terraform.jpg)
+
+
 ---
 
 ## 🔑 SSH into EC2
@@ -121,6 +131,10 @@ ssh -i "C:\Users\<YourUser>\.ssh\my-aws-keypair.pem" ec2-user@<public-ip>
 - Replace <YourUser> with your Windows username
 
 - Replace <public-ip> with Terraform output
+
+  
+![SSH Screenshot](screenshots/ec2-scg.jpg)
+
 
 ---
 
