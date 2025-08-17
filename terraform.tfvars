@@ -1,0 +1,6 @@
+region = "ap-southeast-2"
+ami = "ami-010876b9ddd38475e"
+instance_type = "t2.micro"
+key_name = "<your-keypair-file>"
+allowed_ssh_cidr = "<your-ip-address>/32"
+allowed_http_cidr = "0.0.0.0/0"
