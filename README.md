@@ -7,26 +7,25 @@ This project demonstrates how to use **Terraform** to provision an **AWS EC2 ins
 ## 📌 Prerequisites
 - AWS Account with an IAM user having `EC2` permissions
 - AWS CLI installed and configured
-  ```bash
-  aws configure
-  ```
+```bash
+aws configure
+```
 - Terraform installed
 ```bash
 terraform -version
 ```
 - Visual Studio Code (VS Code)
-
 - An existing AWS Key Pair and its .pem file for SSH access
 
 ---
 
 ## 📂 Project Structure
 terraform-ec2-assignment/
- ├── main.tf              # Main Terraform configuration
- ├── variables.tf         # Variables definition
- ├── terraform.tfvars     # Variable values
- ├── outputs.tf           # Outputs after apply
- └── README.md            # Documentation
+ ├── main.tf           &nbsp;   # Main Terraform configuration </br>
+ ├── variables.tf   &nbsp;      # Variables definition </br>
+ ├── terraform.tfvars     &nbsp;# Variable values</br>
+ ├── outputs.tf        &nbsp;   # Outputs after apply</br>
+ └── README.md           &nbsp; # Documentation</br>
 
 ---
 
