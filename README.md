@@ -131,12 +131,3 @@ To avoid extra AWS charges, destroy resources:
 terraform destroy -auto-approve
 ```
 
----
-
-## ✅ Deliverables
-
-Screenshot of running EC2 instance in AWS Console
-
-Screenshot of Terraform outputs (Public IP & DNS)
-
-Screenshot of successful SSH connection
