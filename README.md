@@ -20,7 +20,7 @@ terraform -version
 ---
 
 ## 📂 Project Structure
-terraform-ec2-assignment/
+terraform-ec2-assignment/</br>
  ├── main.tf           &nbsp;   # Main Terraform configuration </br>
  ├── variables.tf   &nbsp;      # Variables definition </br>
  ├── terraform.tfvars     &nbsp;# Variable values</br>
